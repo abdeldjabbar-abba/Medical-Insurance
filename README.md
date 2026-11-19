@@ -371,10 +371,4 @@ Insurance_Analysis_Project/
     └── build_visuals.py       # Rebuilds every chart and image from the data
 ```
 
-```bash
-pip install pandas numpy matplotlib seaborn scipy jupyter
-jupyter notebook Insurance_Analysis.ipynb    # run all cells from the top
-python scripts/build_visuals.py              # optional: rebuild the README visuals
-```
-
 <p align="center"><sub>Dataset: Medical Cost Personal Dataset (insurance.csv). Analysis for educational and portfolio purposes.</sub></p>
