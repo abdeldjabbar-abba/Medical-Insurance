@@ -42,17 +42,28 @@ One exact duplicate row was found and removed, leaving **1,337 unique customer r
 
 ### Dataset fields
 
-| Measure | `age` | `sex` | `bmi` | `children` | `smoker` | `region` | `charges` |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| ``Description`` | Customer age in years | Customer sex, recorded as female or male | Body Mass Index | Number of children covered | Smoking status, recorded as yes or no | Customer region in the United States | Annual medical insurance charges in US dollars |
-| ``Data type`` | Numerical | Categorical | Numerical | Numerical | Categorical | Categorical | Numerical outcome |
+| Column | ``Description`` | ``Data type`` |
+|:--|:--|:--|
+| `age` | Customer age in years | Numerical |
+| `sex` | Customer sex, recorded as female or male | Categorical |
+| `bmi` | Body Mass Index | Numerical |
+| `children` | Number of children covered | Numerical |
+| `smoker` | Smoking status, recorded as yes or no | Categorical |
+| `region` | Customer region in the United States | Categorical |
+| `charges` | Annual medical insurance charges in US dollars | Numerical outcome |
 
 ### Data quality checks
 
-| Measure | Original records | Exact duplicate rows | Records after duplicate removal | Missing values | Sex categories | Smoking categories | Regions | Child count values |
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Result | 1,338 | 1 | **1,337** | **0** | 2 | 2 | 4 | 6 |
-| What it means | Rows in the source CSV file | One repeated record was identified | Final dataset used for the analysis | No imputation was required | Female and male | Yes and no | Northeast, northwest, southeast and southwest | Values from 0 to 5 |
+| Check | Result | What it means |
+|:--|--:|:--|
+| Original records | 1,338 | Rows in the source CSV file |
+| Exact duplicate rows | 1 | One repeated record was identified |
+| Records after duplicate removal | **1,337** | Final dataset used for the analysis |
+| Missing values | **0** | No imputation was required |
+| Sex categories | 2 | Female and male |
+| Smoking categories | 2 | Yes and no |
+| Regions | 4 | Northeast, northwest, southeast and southwest |
+| Child count values | 6 | Values from 0 to 5 |
 
 The category checks did not reveal unexpected values in the columns reviewed.
 The duplicate was removed before the main analysis, and the cleaned dataframe was used for the group comparisons and statistical tests.
