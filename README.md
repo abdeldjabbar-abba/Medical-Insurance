@@ -83,15 +83,10 @@ The notebook follows a practical exploratory analysis process.
 
 <br><br>
 
-| Stage | Work completed |
-|:--|:--|
-| **Inspect** | Reviewed sample rows, column types, descriptive statistics and category values |
-| **Clean** | Checked missing values, identified the repeated row and removed the duplicate |
-| **Explore** | Studied the overall charges distribution and numerical correlations |
-| **Compare** | Compared charges across sex, smoking status, number of children and region |
-| **Investigate further** | Examined BMI and age patterns within smoking groups |
-| **Test** | Used Mann Whitney U and Kruskal Wallis tests for selected group comparisons |
 
+| Stage | Inspect | Clean | Explore | Compare | Investigate further | Test |
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Work completed | Reviewed sample rows, column types, descriptive statistics and category values | Checked missing values, identified the repeated row and removed the duplicate | Studied the overall charges distribution and numerical correlations | Compared charges across sex, smoking status, number of children and region | Examined BMI and age patterns within smoking groups | Used Mann Whitney U and Kruskal Wallis tests for selected group comparisons |
 
 <br><br>
 <img src="assets/section_divider.png" alt="" width="100%">
