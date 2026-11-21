@@ -13,8 +13,7 @@
 
 
 <img src="assets\section_01.png" alt="" width="100%">
-
-## 01 | Project Overview
+<br><br>
 
 The cost of medical insurance is not the same for every customer.
 This analysis explores a medical insurance dataset to understand how annual charges vary across customer profiles.
@@ -28,11 +27,11 @@ The main question behind the project is simple.
 
 The analysis is observational, so the results describe patterns in this dataset and do not prove that one characteristic causes a specific insurance charge.
 
+<br><br>
 <img src="assets/section_divider.png" alt="" width="100%">
 <br><br>
 <img src="assets\section_02.png" alt="" width="100%">
 
-## 02 | Dataset at a Glance
 
 The original dataset contains **1,338 records** and **7 columns**.
 One exact duplicate row was found and removed, leaving **1,337 unique customer records** for the analysis.
@@ -69,7 +68,7 @@ One exact duplicate row was found and removed, leaving **1,337 unique customer r
 The category checks did not reveal unexpected values in the columns reviewed.
 The duplicate was removed before the main analysis, and the cleaned dataframe was used for the group comparisons and statistical tests.
 
-
+<br><br>
 <img src="assets/section_divider.png" alt="" width="100%">
 <br><br>
 <img src="assets\section_03.png" alt="" width="100%">
@@ -82,7 +81,7 @@ The notebook follows a practical exploratory analysis process.
   <img src="assets/analysis_workflow.png" alt="Analysis workflow from data inspection to statistical testing" width="100%">
 </div>
 
-* 
+<br><br>
 
 | Stage | Work completed |
 |:--|:--|
@@ -453,40 +452,21 @@ The results should be used to understand the dataset and guide further analysis,
 <br><br>
 <img src="assets\section_08.png" alt="" width="100%">
 
-
-```text
+````
 Medical-Insurance/
 │
 ├── Analysis_Plots/
 │   ├── 01_charges_distribution.png
 │   ├── 02_numerical_feature_correlation.png
-│   ├── 03_charges_by_sex_boxplot.png
-│   ├── 04_charges_by_sex_violin.png
-│   ├── 05_charges_distribution_by_smoker.png
-│   ├── 06_charges_by_smoker_boxplot.png
-│   ├── 07_charges_by_smoker_violin.png
-│   ├── 08_charges_by_number_of_children.png
-│   ├── 09_charges_by_region_boxplot.png
-│   ├── 10_charges_by_region_log_scale.png
-│   ├── 11_bmi_vs_charges_by_smoker.png
-│   ├── 12_charges_by_smoker_and_bmi_group.png
-│   ├── 13_age_vs_charges_by_smoker.png
-│   └── 14_charges_by_age_group_and_smoker.png
+│   └── ...  # Other plot images
 │
 ├── assets/
 │   ├── hero_banner.png
-│   ├── hero_banner.svg
-│   ├── key_metrics.png
-│   ├── key_metrics.svg
-│   ├── analysis_workflow.png
-│   ├── analysis_workflow.svg
-│   ├── section_divider.png
-│   ├── section_divider.svg
 │   ├── tools.png
-│   └── tools.svg
+│   └── ...  # Other project images
 │
 ├── insurance.csv
 ├── Insurance_Analysis.ipynb
 ├── Insurance_Predictions.ipynb
-└── README.md
-```
+└── README.md`
+````
