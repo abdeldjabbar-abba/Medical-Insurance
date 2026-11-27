@@ -424,7 +424,7 @@ The dashboard will give estimates from historical data, and it will say clearly 
 <br><br>
 <img src="assets/section_divider.png" alt="" width="100%">
 <br><br>
-<img src="assets/section_07.png" alt="" width="100%">
+<img src="assets/section_07.png" alt="" width="100%"> 
 
 ```
 Medical-Insurance/
